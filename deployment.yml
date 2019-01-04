@@ -1,0 +1,9 @@
+Description: This is another Lambda
+FunctionName: lambda2
+
+Handler: index.handler
+
+MemorySize: 128
+Publish: true
+Role: role=arn:aws:iam::773141716313:role/cli-test
+Runtime: nodejs8.10
